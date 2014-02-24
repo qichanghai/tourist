@@ -99,7 +99,7 @@ A simple Example of a step object:
   target: $('#something-to-point-at'),
   closeButton: true,
   highlightTarget: true,
-  setup: (tour, options) {
+  setup: function(tour, options) {
     // do stuff in the interface/bind
   },
   teardown: function(tour, options) {
